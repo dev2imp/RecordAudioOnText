@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mainbg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/FragmentContainer"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/mainRelativeLayout"
+
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/AppBar"
+            android:id="@+id/RecView"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Add"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
