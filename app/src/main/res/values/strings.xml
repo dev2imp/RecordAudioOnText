@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Save Words</string>
+    <!--Share data Fragment or Activity-->
+    <string name="DataFomActivityToFragment">DataFomActivityToFragment</string>
+    <string name="ParentTitle">ParentTitle</string>
+    <!--Dialog Appear-->
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="NewTask">New Task</string>
+    <string name="DeleteTask">Are you sure to delete? \n You will Lose all data about
+    This Item</string>
+    <string name="DeleteAudio">Are you Sure to Delete Audio for this Item?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <!--Shared Prefences key -->
+    <string name="TIME_DATE_MODEL">com.developeros.howlongdoyouwork.SAVE_TIME_NOW</string>
+    <string name="audiofile">audiofile</string>
+    <string name="parenttitle">parenttitle</string>
+    <string name="text">text</string>
+    <string name="recording">recording</string>
+    <string name="playing">playing</string>
+    <string name="totalWork">playing</string>
+    <string name="Filename">com.developeros.howlongdoyouwork.data</string>
+
+</resources>

@@ -1,0 +1,2 @@
+com/developeros/RecordAuidoOntext/BuildConfig.java
+ com.developeros.RecordAuidoOntext.BuildConfig

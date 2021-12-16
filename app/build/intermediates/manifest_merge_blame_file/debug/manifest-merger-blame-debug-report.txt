@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.developeros.howlongdoyouwork"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:5:5-70
+12-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:5:22-68
+13
+14    <application
+14-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:7:5-21:19
+15        android:allowBackup="true"
+15-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\816d0af935b6241583767e7baefb19eb\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.HowLongDoYouWork" >
+24-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:13:9-54
+25        <activity android:name="com.developeros.RecordAuidoOntext.MainActivity" >
+25-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:14:9-20:20
+25-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:14:19-80
+26            <intent-filter>
+26-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:15:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:16:17-69
+27-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:16:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:18:17-77
+29-->C:\Users\devos\AndroidStudioProjects\RecordAudioOnText\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+35            android:authorities="com.developeros.howlongdoyouwork.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\c12cc97e226d27cb2fd5bb613f971ff2\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\97b371088ca23bde23f081e84cc39583\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\97b371088ca23bde23f081e84cc39583\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\devos\.gradle\caches\transforms-2\files-2.1\97b371088ca23bde23f081e84cc39583\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+43        </provider>
+44    </application>
+45
+46</manifest>
